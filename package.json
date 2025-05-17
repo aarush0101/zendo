@@ -41,7 +41,7 @@
     "@cloudflare/next-on-pages": "^1.13.12",
     "@cloudflare/workers-types": "^4.20250515.0",
     "@eslint/eslintrc": "^3.3.1",
-    "@tailwindcss/postcss": "^4.1.6",
+    "@tailwindcss/postcss": "^4.1.7",
     "@types/js-cookie": "^3.0.6",
     "@types/node": "^22",
     "@types/react": "^19",
@@ -50,7 +50,7 @@
     "eslint": "^9",
     "eslint-config-next": "15.3.2",
     "postcss": "^8.5.3",
-    "tailwindcss": "^4.1.6",
+    "tailwindcss": "^4.1.7",
     "tw-animate-css": "^1.2.8",
     "typescript": "^5.8.3"
   },

@@ -1,5 +1,5 @@
 # Install dependencies
-FROM node:20-slim AS deps
+FROM node:20.19.2-slim AS deps
 
 WORKDIR /app
 
@@ -17,7 +17,7 @@ COPY package.json package-lock.json* ./
 RUN npm install --frozen-lockfile
 
 # Build app
-FROM node:20-slim AS builder
+FROM node:20.19.2-slim AS builder
 
 WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
@@ -30,7 +30,7 @@ ENV NODE_OPTIONS=--dns-result-order=ipv4first
 RUN npm run build
 
 # Final runtime image
-FROM node:20-slim AS runner
+FROM node:20.19.2-slim AS runner
 
 WORKDIR /app
 

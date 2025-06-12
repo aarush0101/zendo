@@ -44,7 +44,7 @@
     "cmdk": "^1.1.1",
     "firebase": "^11.9.0",
     "focus-trap-react": "^11.0.4",
-    "framer-motion": "^12.15.0",
+    "framer-motion": "^12.17.2",
     "jose": "^6.0.11",
     "js-cookie": "^3.0.5",
     "lucide-react": "^0.511.0",
